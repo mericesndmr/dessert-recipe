@@ -1,0 +1,50 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    #container{
+        height: auto;
+    }
+
+    /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Second Content Codes xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    .item2{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .left > img{
+        width: 90%;
+    }
+
+    .right{
+        width: 100%;
+        margin-top: 30px ;
+    }
+
+
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .example {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .example {background: orange;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }
